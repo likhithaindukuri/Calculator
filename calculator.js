@@ -4,7 +4,7 @@ const express=require("express");
 const app=express();
 
 app.get("/",function(req,res){
-  console.log();(__dirname);
+  console.log(__dirname+"/index.html");
 });
 
 app.listen(3000,function(){
